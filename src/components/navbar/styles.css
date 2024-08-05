@@ -1,0 +1,44 @@
+header {
+  background-color: #333;
+  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.25);
+}
+
+header nav#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  height: 80px;
+}
+header nav#navbar .nav-brand {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+header nav#navbar .nav-brand h1 {
+  font-family: "Yellowtail", cursive;
+  font-weight: 400;
+  font-size: 2rem;
+}
+header nav#navbar .nav-brand img {
+  width: 40px;
+  height: 40px;
+}
+
+header nav#navbar ul.nav-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 1rem;
+}
+header nav#navbar ul.nav-list li a {
+  color: #a5a5a5cc;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+header nav#navbar ul.nav-list li a:hover {
+  color: white;
+  transition: 0.3s;
+}
